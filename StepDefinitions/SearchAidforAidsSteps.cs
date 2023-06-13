@@ -40,9 +40,8 @@ namespace TechnicalProject.StepDefinitions
         {
             WebDriverWait wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(10));
             IWebElement checksearch = wait.Until(ExpectedConditions.ElementIsVisible(By.Id("gsr")));
-            // Aquí puedes realizar las acciones adicionales que deseas después de que el elemento sea visible
-            // ...
-            Driver.Quit(); // Cierra el navegador al finalizar el test
+            
+            Driver.Quit(); 
         }
 
     }

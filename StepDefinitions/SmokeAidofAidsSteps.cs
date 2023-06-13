@@ -26,8 +26,6 @@ namespace TechnicalProject.StepDefinitions
             smokeAidofAidsO.whoWeAreButton.Click();
             WebDriverWait waittwo = new WebDriverWait(Driver, TimeSpan.FromSeconds(10));
             IWebElement whowearetitle = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//h1[@class='fancy-title entry-title start-animation-done start-animation']")));
-
-
         }
 
         [Then(@"Finish the smoke test")]
@@ -38,10 +36,7 @@ namespace TechnicalProject.StepDefinitions
                 Console.WriteLine("Smoke test passed!");
                 return;
             }
-
             throw new Exception("Smoke test failed!");
-
         }
-
     }
 }
