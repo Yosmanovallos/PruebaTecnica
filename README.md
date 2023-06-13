@@ -33,6 +33,5 @@ y en los steps el paso a paso en codigo de los escnararios creados en c# con sel
 
 ## Cómo utilizar
 Ejecuta las pruebas automatizadas haciendo clic derecho en el archivo de prueba y seleccionando "Ejecutar pruebas" o presionando la combinación de teclas adecuada. 
-Durante la ejecución de las pruebas, se mostrará información en la consola de salida de Visual Studio y se generará un informe de pruebas detallado. 
-Verifica los resultados de las pruebas en la consola de salida o en el informe generado.
+Durante la ejecución de las pruebas, se mostrará información en la consola de salida de Visual Studio Verifica los resultados de las pruebas en la consola de salida.
 
