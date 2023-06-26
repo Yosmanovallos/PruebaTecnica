@@ -19,14 +19,14 @@ Haciendo uso de selenium o la herramienta de testing de su preferencia:
 1. Clona el repositorio en tu máquina local.
 2. Abre el proyecto en Visual Studio.
 3. NuGet necesarios.
-4. ![image](https://github.com/Yosmanovallos/PruebaTecnica/assets/119948396/6212de4e-6b0e-46d1-9594-d51571b79188)
-5. ![image](https://github.com/Yosmanovallos/PruebaTecnica/assets/119948396/f18e5d62-12e9-4514-8f55-9d4c3437242b)
+4. ![image](https://github.com/Yosmanovallos/PruebaTecnica/assets/119948396/c20bbda3-1159-48a5-889c-042346e7b555)
+5. ![image](https://github.com/Yosmanovallos/PruebaTecnica/assets/119948396/f81cdd5e-80bc-4704-9935-958ee9b8ecd3)
 6. los otro NuGets faltantes los instala por defecto al instalar SpecFlow
 7. Compila el proyecto para asegurarte de que no hay errores de compilación.
 
 ## Estructura del proyecto
 el proyecto esta hecho en c#, con selenium y SpecFlow, este trabaja con gherkin y el patron de diseño POM
-![image](https://github.com/Yosmanovallos/PruebaTecnica/assets/119948396/52ac510e-e8c2-46d5-83cb-d44d2a0c8acc)
+![image](https://github.com/Yosmanovallos/PruebaTecnica/assets/119948396/b6670678-83dd-42c6-9438-b8100944dc12)
 En las clases .Feature se trabaja cada escenario en lenguaje gerkin 
 en las pages se trabajaron todos los locators de las pruebas
 y en los steps el paso a paso en codigo de los escnararios creados en c# con selenium
